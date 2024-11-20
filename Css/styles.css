@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.profile {
+  width: 816px;
+  height: 1344px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.profile_information {
+  background-color: #eff3f1;
+  width: 45%;
+  height: 100%;
+}
+
+.profile_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid green; 
+}
+
+.profile_circular_image {
+  width: 30%;
+  height: 11%;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+.profile_contacto, .profile_education{
+    color: #628371;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile_contacto_datos , .profile_educaction_datos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.profile_datos_personal{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.profile_title_datos{
+    font-weight: bolder;
+}
+
+.profile_educaction_place{
+    font-weight: bold;
+}
+
